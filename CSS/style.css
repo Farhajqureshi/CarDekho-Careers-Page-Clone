@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+.header {
+  width: 100%;
+  height: 7rem;
+  position: fixed;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 5em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+#first-child {
+  color: #F75D34;
+}
+
+.nav-link:hover {
+  color: #F75D34;
+  transition: 1s;
+}
+
+.main {
+  width: 100%;
+  height: 80%;
+  border: none;
+}
+
+.section-1 {
+  width: 100%;
+  height: 40rem;
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1 h1 {
+  font-size: 52px;
+  text-align: center;
+}
+
+.btn {
+  width: 196px;
+  height: 48px;
+  background-color: #F75D34;
+  ;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s;
+  font-weight: 700;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.section-img {
+  width: 100%;
+  height: 50rem;
+  background-color: red;
+  display: flex;
+}
+
+.first-sec-img {
+  width: 50%;
+  height: 50rem;
+}
+
+.img-1 {
+  width: 100%;
+  height: 50rem;
+}
+
+.img-2 {
+  width: 100%;
+  height: 25rem;
+}
+
+.second-sec-img {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: 15px 9%;
+  padding-bottom: 100px;
+  cursor: pointer;
+}
+
+.container .heading p {
+  font-size: 20px;
+}
+
+.color {
+  color: #F2A036;
+}
+
+.head {
+  display: flex;
+}
+
+.container .heading {
+  text-align: center;
+  padding-bottom: 15px;
+  color: black;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.container .box-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 30px;
+}
+
+.container .box-container .box {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #F7F4EE;
+}
+
+.container .box-container .box img {
+  height: 200px;
+}
+
+.container .box-container .box p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.container .box-container .box .btn:hover {
+  letter-spacing: 1px;
+}
+
+
+.container .box-container .box:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+  transform: scale(1.03);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.container-3 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container-3 h3 {
+  font-size: 52px;
+}
+
+.container-3 h2 p {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 567px) {
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .section-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first-sec-img {
+    width: 100%;
+  }
+
+  .second-sec-img {
+    width: 100%;
+  }
+
+
+  .container {
+    margin-top: 300px;
+
+  }
+
+  .container .box-container .box img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .box-container .box {
+    width: 15rem;
+  }
+
+  .container .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .responsive {
+    width: 100%;
+    height: 400px;
+  }
+
+
+  .footer-a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
